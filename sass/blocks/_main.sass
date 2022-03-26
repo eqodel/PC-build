@@ -1,0 +1,48 @@
+.main
+    &-display
+        padding-top: 27rem
+        &__header
+            font-size: 6.4rem
+            max-width: 76rem
+            margin-bottom: 5rem
+            font-weight: 700
+            line-height: 140%
+        &__timer
+            display: flex
+            margin-bottom: 7.6rem
+        &__button
+            background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%)
+            font-size: 1.6rem
+            font-weight: 400
+            line-height: 150%
+        &__background
+            position: absolute
+            top: 0
+            left: 0
+            z-index: 1
+
+.main-display .container
+    position: relative
+    z-index: 10
+    padding-bottom: 22.8rem
+
+.timer
+    &__item
+        width: 10.2rem
+        height: 11.2rem
+        background-color: #121212
+        display: flex
+        align-items: center
+        justify-content: center
+        flex-direction: column
+    &__item:not(:last-child)
+        margin-right: 3rem
+    &__count
+        font-size: 3.6rem
+        font-weight: 700
+        line-height: 140%
+    &__text
+        font-size: 1.6rem
+        font-weight: 400
+        line-height: 140%
+        opacity: 0.4
