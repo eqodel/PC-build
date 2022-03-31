@@ -30,7 +30,11 @@
                  </a>
              </nav>
              <button type="button" class="button header__button  modal__button">Оставить заявку</button>
-            
+             <button class="menu__button">
+                <div class="menu__item"></div>
+                <div class="menu__item"></div>
+                <div class="menu__item"></div>
+            </button>
         </div>
     </header>
     <main class="main">
@@ -39,21 +43,21 @@
                 <h1 class="main-display__header">
                     Собираем игровой ПК под ваш бюджет
                 </h1>
-                <div class="timer main-display__timer">
+                <div class="timer main-display__timer" id="group">
                     <div class="timer__item">
-                        <div class="timer__count">18</div>
+                        <div class="timer__count" id="d">18</div>
                         <div class="timer__text">Дней</div>
                     </div>
                     <div class="timer__item">
-                        <div class="timer__count">18</div>
+                        <div class="timer__count" id="h">18</div>
                         <div class="timer__text">Часов</div>
                     </div>
                     <div class="timer__item">
-                        <div class="timer__count">18</div>
+                        <div class="timer__count" id="m">18</div>
                         <div class="timer__text">Минут</div>
                     </div>
                     <div class="timer__item">
-                        <div class="timer__count">18</div>
+                        <div class="timer__count" id="s">18</div>
                         <div class="timer__text">Секунд</div>
                     </div>
                 </div>

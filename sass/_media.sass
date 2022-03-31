@@ -1,0 +1,199 @@
+@media (max-width: 1200px)
+    .container
+        width: 100rem
+
+    .work
+        &__text
+            max-width: 33.6rem
+            padding-top: 0
+
+    .team
+        &__wrap
+            padding: 0
+
+    .assembly
+        padding-bottom: 14.4rem
+
+    .header
+        &__nav
+            padding-right: 0
+
+@media (max-width: 992px)
+    .button, .header__nav a, .work__description, .process__description, .process_text
+        font-size: 1.4rem
+
+    .container
+        width: 82rem
+
+    .process
+        &__columns::after
+            width: 100%
+
+    .main
+        &-display
+            padding-top: 13rem
+
+    .main-display .container
+        padding-bottom: 10.8rem
+
+    .work
+        padding-bottom: 14.3rem
+        &__wrap
+            align-items: center
+        &__img
+            height: 34.9rem
+
+    .header__nav a:not(:last-child)
+        margin-right: 3.1rem
+
+
+@media (max-width: 868px)
+
+    .container
+        width: 71rem
+
+    .main-display
+        &__header
+            font-size: 3.4rem
+        &__timer
+            margin-bottom: 2.6rem
+
+    .timer
+        &__item
+            width: 7.2rem
+
+    .work
+        padding-bottom: 3.3rem
+        &__wrap
+            flex-direction: column
+            align-items: flex-start
+        &__img
+            width: auto
+        &__text
+            max-width: 100% 
+
+
+    .process
+        padding-bottom: 10rem
+
+    .team
+        padding-bottom: 10rem
+
+    .assembly
+        &__header
+            font-size: 3.4rem
+
+@media (max-width: 763px)
+    .container
+        width: 67rem
+
+    .header
+        padding: 4rem
+
+    .main-display
+        &__header
+            margin-bottom: 1rem 
+
+    .process
+        &__columns
+            flex-direction: column
+        &__columns::after
+            display: none
+        &__work
+            margin-bottom: 2rem
+
+    .team
+        &__wrap
+            flex-direction: column
+            align-items: flex-start
+        &__item
+            margin-bottom: 2rem
+        &__title
+            margin-bottom: 6rem
+
+@media (max-width: 680px)
+    .header
+        position: fixed
+        left: 0
+        right: 0
+        top: 0
+        z-index: 99
+        background: rgba(0,0 ,0 ,0.8 )
+        transform: translate(0,0)
+        padding: 0 5rem
+        &__nav
+            display: none
+            &--visible
+                display: flex
+                justify-content: start
+                text-align: center
+                align-items: center
+        &__button
+            display: none
+
+    .menu
+        &__button
+            display: flex
+
+    .container
+        width: 87%
+
+    .main-display
+        &__timer
+            display: none
+
+@media (max-width: 555px)
+    .main-display
+        padding-top: 9rem
+        &__header
+            font-size: 3.8rem
+
+    .process
+        &__header
+            font-size: 3.8rem
+
+    .work
+        &__header
+            font-size: 3.8rem
+        &__img
+            width: 300px
+            height: 300px
+
+    .header--menu
+        left: auto
+        width: 100%
+        height: 320px
+
+    .header__wrap--menu
+        flex-direction: column
+    .header__nav--menu
+        flex-direction: column
+        padding: 7rem 0
+
+    .header__nav a:not(:last-child)
+        margin-right: 0
+        margin-bottom: 2rem
+
+@media (min-width: 320px) and (max-width: 480px)
+    .main-display
+        padding-top: 9rem
+        &__header
+            font-size: 2.8rem
+
+    .process
+        &__header
+            font-size: 2.8rem
+        &__work
+            font-size: 2.5rem
+
+    .work
+        &__header
+            font-size: 2.8rem
+
+    .assembly
+        &__header
+            font-size: 2.8rem
+
+    .team
+        &__wrap
+            align-items: center         
